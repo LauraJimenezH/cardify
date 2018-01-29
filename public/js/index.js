@@ -5,8 +5,9 @@
   $.fn.Cardify = function () {
 
     $('img').hover(function () {
-        $(this).before('<figure></figure>');
-        $('figure').html($(this))
+        $(this).parent().append('<figure><img src="'+$(this).attr('src')+'"><figcaption>'+$(this).attr('alt')+'</figcaption></figure>')
+        $(this).remove();
+
     });
   };
 })(jQuery);
