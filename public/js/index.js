@@ -1,19 +1,12 @@
 'use strict';
 
-$(document).load(function () {
+(function ($) {
 
-    (function ($) {
-        var _this = this;
+  $.fn.Cardify = function () {
 
-        $.fn.Cardify = function () {
-
-            $this = $(_this);
-            $('img').hover(function () {
-                $this.animate({
-                    height: '250px',
-                    width: '230px'
-                });
-            });
-        };
-    })(jQuery);
-});
+    $('img').hover(function () {
+        $(this).before('<figure></figure>');
+        $('figure').html($(this))
+    });
+  };
+})(jQuery);

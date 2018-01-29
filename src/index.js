@@ -1,17 +1,8 @@
-
-$(document).load( () => {
-
-      (function( $ ){
+(function( $ ){
             $.fn.Cardify= () => {
 
-              $this = $(this);
-        $('img').hover(function(){
-            $this.animate({
-                height:'250px',
-                width:'230px'
-            })
+        $('img').hover(() => {
+            $(this).HTML('<figure><img src="../assets/2.jpg"><figcaption>aaaaa</figcaption></figure>');
         })
           };
         })( jQuery );
-        
-});
