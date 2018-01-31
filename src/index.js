@@ -25,12 +25,15 @@
 
 (function ($) {
 
-  $.fn.Cardify = () => {
+  $.fn.cardify = () => {
 
-    $('img').click(() => {
-      $(this).parent().append('<figure><img src="'+$(this).attr('src')+'"><figcaption>'+$(this).attr('alt')+'</figcaption></figure>')
-      $(this).remove();
-
+    $(this).find('img').each(() => {
+      $(this).wrap('<figure></figure>');
+      $(this).hover(() =>{
+        $(this).parent().append($('<figcaption>' + $(this).attr('alt') + '</figcaption>'));
+        
+    })
+      
     });
   };
 })(jQuery);
