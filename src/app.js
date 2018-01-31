@@ -1,3 +1,4 @@
 $(document).ready(() => {
-  $('.container').Cardify();
+  $('.container').cardify();
+  
 })
