@@ -23,17 +23,51 @@
 //     pluginHover();
 // });
 
+
 (function ($) {
+  $.fn.Cardify = () => {
 
-  $.fn.cardify = () => {
-
-    $(this).find('img').each(() => {
-      $(this).wrap('<figure></figure>');
-      $(this).hover(() =>{
-        $(this).parent().append($('<figcaption>' + $(this).attr('alt') + '</figcaption>'));
+  $(this).find('img').each(() => {
+    $(this).wrap('<figure></figure>');
+    $(this).hover(() =>{
+      $(this).parent().append($('<figcaption>' + $(this).attr('alt') + '</figcaption>'));
         
-    })
+    },()=>{
+      $('figcaption').remove();
+    });
       
     });
   };
 })(jQuery);
+
+
+
+// 3
+// (function($) {
+//   $.fn.Cardify = () => {
+
+//     let container = $('.container');
+//     let pluginHover = (container) => {
+//       let contImg = container.find('img').each();
+
+//       for (let i = 0; i < contImg.length; i++) {
+//       let figure = contImg.wrap('<figure></figure>');
+//         let altImage = $(contImg[i]).attr('alt');
+//         let figcaption = $('<figcaption>' + altImage + '</figcaption>');
+//         $('figure').append(figcaption);
+
+//         container.append(figure);
+        
+//         $(contImg[i]).mouseover(() => {
+          // $(contImg[i]).wrap('<figure></figure>');
+          // $(contImg[i]).parent().append($('<figcaption>' + $(contImg[i]).attr('alt') + '</figcaption>'));
+        //   let altImage = $(contImg[i]).attr('alt');
+        //  let figcaption = $('<figcaption>' + altImage + '</figcaption>');
+        //  $(contImg[i]).append(figcaption);
+          // $('figcaption').css({'font-size': '50px', 'transform': 'translateX(50%)'});
+//         });
+//       }
+//     };
+//     pluginHover(container);
+// }
+// })(jQuery);
