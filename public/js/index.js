@@ -26,13 +26,14 @@
 // });
 
 (function ($) {
+  var _this = this;
 
   $.fn.cardify = function () {
-    
-    $(this).find('img').each(function () {
-      $(this).wrap('<figure></figure>');
-      $(this).hover(function () {
-        $(this).parent().append($('<figcaption>' + $(this).attr('alt') + '</figcaption>'));
+
+    $(_this).find('img').each(function () {
+      $(_this).wrap('<figure></figure>');
+      $(_this).hover(function () {
+        $(_this).parent().append($('<figcaption>' + $(_this).attr('alt') + '</figcaption>'));
       });
     });
   };
