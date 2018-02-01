@@ -15,16 +15,17 @@ imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
 elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
 con el texto del atributo `alt` de la imagen.
 
->* Escogimos esta idea porque toda web o app cuanto con un minimo de una imagen,pero muchas veces sucede que queremos tener una breve descripcion de la imagen y para ello,este plugins sera de gran *utilidad* y *simplificara* el trabajo en gran medida.
+>* Nuestro plugins sera de gran *utilidad* y *simplificara* el trabajo de mostrar un pequeño titulo de la imagen que lo obtenemos del atributo *alt*.
 
 2. Organizacion.
 
 Nos organizamos delegando responsabilidades en temas especificos.
 
 + LAURA :Investigar sobre las librerias ,Comenzar con la estructura basica.
+
 + MARINA :Investigar sobre el Compilador Babel,instalar las dependencias.
 
-Trabajamos con Issues que nos sirve para identificar nuestros principales problemas durante el proceso.
+Trabajamos con Issues que nos sirve para identificar nuestros principales problemas durante el proceso y poder llevar una lista de las tareas a realizar.
 
 ![issues](src/assets/issues.png)
 
@@ -38,11 +39,17 @@ Trabajamos con Issues que nos sirve para identificar nuestros principales proble
 
 * Agregando *.gitignore*(Nos sirve para ignorar carpetas que no se deben mostar en el git).
 ```js
-
  (*.DS_Store
 node_modules)
 ```
 * Empezamos con la estructura de la pagina principal *index.html*.
+
+## Requerimientos
+1. Instalar NodeJs en la maquina.
+> npm install
+2. Instalar el transpilador de Babel(Realiza transpilacion de ES6 a ES5)
+> npm install --save-dev babel-cli babel-preset-env.
+3. Contar con un contenedor de etiquetas *img* para hacer uso del plugins.
 
 ## Uso
 
@@ -57,6 +64,11 @@ $(container).cardify({});
 ...
 ## Recursos
 
-- html,css,javascript
-- Bootstrap(framework)
-- Babel (transpilador)
+- html,css,javascript.
+- jquery.
+- Babel (transpilador).
+
+## Integrantes
+
+* Laura Jimenes https://github.com/LauraJH16
+* Marina Rodriguez https://github.com/MarinaRH
