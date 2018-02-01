@@ -1,5 +1,5 @@
-*{
-  background-image: url('../assets/fondo.jpg');
+body {
+  background: url('../assets/fondo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -27,11 +27,11 @@ figure {
 }
 
 figure:hover{
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .figcaption-hover {
-  color: rgb(7, 0, 0);
+  color: rgb(253, 253, 253);
   font-size: 25px;
   position: absolute;
   top: 35%;
@@ -43,3 +43,13 @@ figure:hover{
   color: white;
   font-weight: bold;
 }
+
+div .back { 
+ border-radius: 10px;
+ border: 1px solid white;
+ background-color: rgb(2, 70, 70);
+ height: 9%;
+ width: 10%;
+}
+
+
