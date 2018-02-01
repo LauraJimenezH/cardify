@@ -7,7 +7,7 @@
 
       $(this).wrap('<figure></figure>');
       $(this).hover(function () {
-        $(_this).parent().append($('<figcaption>' + $(_this).attr('alt') + '</figcaption>'));
+        $(_this).parent().append($('<figcaption class="figcaption-hover">' + $(_this).attr('alt') + '</figcaption>'));
       }, function () {
         $('figcaption').remove();
       });
