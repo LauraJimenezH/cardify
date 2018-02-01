@@ -8,16 +8,16 @@
 
 ## Plan de Accion
 
-1. Eleccioon del Reto 
+1. ELECCION DEL RETO 
 
 >* Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
 imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
 elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
 con el texto del atributo `alt` de la imagen.
 
->* Nuestro plugins sera de gran *utilidad* y *simplificara* el trabajo de mostrar un pequeño titulo de la imagen que lo obtenemos del atributo *alt*.
+>* Nuestro plugin sera de gran *utilidad* y *simplificara* el trabajo de mostrar un pequeño titulo de la imagen que lo obtenemos del atributo *alt*.
 
-2. Organizacion.
+2. ORGANIZACION.
 
 Nos organizamos delegando responsabilidades en temas especificos.
 
@@ -29,13 +29,13 @@ Trabajamos con Issues que nos sirve para identificar nuestros principales proble
 
 ![issues](public/assets/issues.png)
 
-3. Proceso.
+3. PROCESO.
 
 * Inicializando *npm init*.
 * Instalando las dependencias *package.json* y el transpilador *Babel*.
-* Creandon el archivo *babelrc* (que realiza el cambio de ES6 a ES5).
-
+* Creando el archivo *babelrc* (que realiza el cambio de ES6 a ES5).
 * Agregando *.gitignore*(Nos sirve para ignorar carpetas que no se deben mostar en el git).
+
 ```js
  (*.DS_Store
 node_modules)
