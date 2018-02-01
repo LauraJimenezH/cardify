@@ -5,42 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Cardify</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <title>DemoCardify</title>
 </head>
 
 <body>
+  <header>
+      <h1>Cardify.js</h1>
+      <span>Efecto hover que muestra el atributo alt</span>
+  </header>
+  <main>
+    <br>
+    <p class="expl"> Dado un contenedor busca todas las imágenes que encuentre dentro y las reemplaza por un nuevo elemento <strong><'figure'> </strong> <'figure'> que contenga la etiqueta <strong>(<'img'>)</strong> además de un <strong><'figcaption'></strong> con el texto del atributo alt de esa imagen.
+    </p>
+    <div class="inst">
+        <h2>TENER EN CUENTA</h2>
+        <br>
+        <h3>PASO1:</h3>
+        Tener en cuenta que debe de contar con un (.container) y dentro de ella etiquetas (<'img'>),luego de ello en el archivo html debe realizar el siguiente enlace.<br><br>
+        <img class="inst2" src="assets/instalacion.png" alt="">
 
-    <header>
-        <h1>Cardify.js</h1>
-        <span>Efecto hover que muestra el atributo alt</span>
-    </header>
-
-    <main>
-        <div class="expl"> Dado un contenedor busca todas las imágenes que encuentre dentro y las reemplaza por un nuevo elemento <'figure'> que contenga la imagen 
-            (<'img'>) además de un<'figcaption'> con el texto del atributo alt de la imagen.
-        </div>
-        <div class="inst">
-            <h3>Como enlazarlo:</h3>
-            Despues de forkear el repositorio, debes enlazar 2 archivos importantes, index.js y main.css.
-            <img src="assets/instalacion2.png" alt="">
-            <img class="inst2" src="assets/instalacion.png" alt="">
-
-        </div>
-        <div class="util">
-            <h3>Como utilizarlo:</h3>
-            Despues de enlazar los archivos, debes llamar al plugin en tu archivo js.
-            <img src="assets/utili.png" alt="">
-            <a class="button" href='views/demo.html'>Demo</a>
-        </div>
-    </main>
-    <footer>
-        <p>Cardify.js is freely distributable under the terms of the Lab license.</p>
-    </footer>
-
-    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    </div>
+    <div class="util">
+        <br><br><br>
+        <h3>PASO2:</h3>
+        Despues de enlazar los archivos, debes llamar al plugin que tiene el nombre de cardify().<br>
+        <img src="assets/utili.png" alt="">
+    </div>
+    <div class="center">
+      <a class="button" href='views/indexS.html'>Sin Plugin</a>
+      <a class="button" href='views/demo.html'>Ver Demo</a>
+    </div>
+  </main>
+  <br><br>
+  <footer>
+    <h4>Cardify.js is freely distributable under the terms of the Lab license.</h4>
+  </footer>
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
 
 </body>
 

@@ -36,6 +36,10 @@ figure:hover{
   position: absolute;
   top: 35%;
   font-weight: bold;
-  left: 5%;
-  
+  left: 5%; 
   }
+
+.white {
+    color: white;
+    font-weight: bold;
+}

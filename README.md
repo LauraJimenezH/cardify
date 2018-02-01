@@ -27,15 +27,13 @@ Nos organizamos delegando responsabilidades en temas especificos.
 
 Trabajamos con Issues que nos sirve para identificar nuestros principales problemas durante el proceso y poder llevar una lista de las tareas a realizar.
 
-![issues](src/assets/issues.png)
+![issues](public/assets/issues.png)
 
 3. Proceso.
 
 * Inicializando *npm init*.
 * Instalando las dependencias *package.json* y el transpilador *Babel*.
 * Creandon el archivo *babelrc* (que realiza el cambio de ES6 a ES5).
-
-![issues](src/assets/baabel.png)
 
 * Agregando *.gitignore*(Nos sirve para ignorar carpetas que no se deben mostar en el git).
 ```js
@@ -52,6 +50,12 @@ node_modules)
 3. Contar con un contenedor de etiquetas *img* para hacer uso del plugins.
 
 ## Uso
+* Para el uso ,previamente tenemos que tener enlazado el plugin a nuestra pagina.
+
+```js
+  <script type="text/javascript" src="../js/index.js"></script>
+```
+* Luego hacer el llamado en nuestro archivo .js.
 
 ```js
 // `container` es el selector del contenedor donde se buscarán todas las
@@ -61,7 +65,10 @@ $(container).cardify({});
 
 ## Ejemplos
 
-...
+![inicio](public/assets/demo.png)
+
+![demo](public/assets/home.png)
+
 ## Recursos
 
 - html,css,javascript.
