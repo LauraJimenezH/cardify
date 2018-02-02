@@ -52,7 +52,7 @@ main .inst {
   font-size: 18px;
   margin-left: 3%;
   border-radius: 5px;
-  box-shadow: 0 0px 10px 0px rgba(0,0,0,.22), 0 5px 2px 0 rgba(0,0,0,.21);
+  box-shadow: 0 0px 15px 0px rgba(0,0,0,.22), 5px 5px 2px 0 rgba(0,0,0,.21);
   border: 2px solid #047064;
 }
 
@@ -80,20 +80,18 @@ main .util {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
     width: 20%;
     border-radius: 10px;
-    font-weight: bold;
+    margin-top: 2%;
     margin-left: 3%;
 
 }
 
 .button:hover {
-  background-color: rgba(26, 182, 109, 0.849);
+  background-color: #1a895d;
   color: black;
-  font-size: 24px;
-
 }
 
 footer {
@@ -102,7 +100,7 @@ footer {
     padding: 14px;
     color: #fff;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 20px;
     background-color:black;
     text-align: center;
 }
