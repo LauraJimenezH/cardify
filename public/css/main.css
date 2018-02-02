@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
 body {
   background: url('../assets/fondo.jpg');
   background-size: cover;
@@ -44,12 +46,26 @@ figure:hover{
   font-weight: bold;
 }
 
-div .back { 
- border-radius: 10px;
- border: 1px solid white;
- background-color: rgb(2, 70, 70);
- height: 9%;
- width: 10%;
+div.back { 
+ border-radius: 5px;
+ border: 2px solid #1a895d;
+ background-color: white;
+ height: 30px;
+ width: 5%;
+ position: relative;
+ margin-left: 30px;
+
+}
+
+div.back a {
+  color: #1a895d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  margin-left: 20%;
+  padding-top: 4%;
+  position: absolute;
 }
 
 
