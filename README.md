@@ -4,8 +4,8 @@
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
 * **Unidad:** _Producto final_
 
-***
-* **Nuestro Plugin** https://marinarh.github.io/cardify/public/index.html
+*** 
+[DEMOSTRACION DEL PLUGIN](https://marinarh.github.io/cardify/public/index.html).
 
 ***
 ## Plan de Accion
@@ -77,7 +77,7 @@ $(container).cardify({});
 - jquery.
 - Babel (transpilador).
 
-## Integrantes
+## Integrantes(GitHub)
 
-* Laura Jimenes https://github.com/LauraJH16
-* Marina Rodriguez https://github.com/MarinaRH
+* [LAURA JIMENEZ](https://github.com/LauraJH16)
+* [MARINA RODRIGUEZ](https://github.com/MarinaRH)
