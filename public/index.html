@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/demo.css">
+  <title>DemoCardify</title>
+</head>
+<body>
+  <header>
+    <h1>Cardify.js</h1>
+    <span>Efecto hover que muestra el atributo alt</span>
+  </header>
+  <main>
+    <br>
+    <div class="logo">
+      <a  href="https://github.com/MarinaRH/cardify">
+        <img  src="assets/git.png"></a><br><br>
+      <a href="assets/vendors/download/cardify.rar" download><img  src="assets/load.png" alt="dowload"></a>
+    </div>
+    <div class="expl"> Dado un contenedor busca todas las imágenes que encuentre dentro y las reemplaza por un nuevo elemento  <strong class="orange">&lt;figure&gt;</strong> que contenga la etiqueta  <strong class="orange">&lt;img&gt;</strong> además de un  <strong class="orange">&lt;figcaption&gt;</strong> con el texto que tiene el atributo alt de esa imagen.
+    </div>
+    <br>
+    <div class="center">
+      <div class="inst">
+        <br>
+        <h3>ENLAZAR</h3>
+        <p> Enlazar el script que vincula el archivo js .</p>
+        <pre class="pre"><code>&lt;script src="js/jquery.cardify.js"&gt;&lt;/script&gt;</code></pre><br>
+        <p>Enlazar el link que vincula el archivo css .</p>
+        <pre class="pre"><code>&lt;script src="js/jquery.cardify.js"&gt;&lt;/script&gt;</code></pre>
+      </div>
+      <div class="inst">
+        <br>
+        <h3>INVOCAR</h3>
+        <p>Despues de enlazar los archivos, invocar al plugin <br>
+          Cardify</p><br>
+        <pre class="pre"><code>$(document).ready(() function {
+          $('.container').cardify(); 
+        })</code></pre>
+      </div>
+    </div>
+    <div class="center">
+      <a class="button" href='views/indexS.html'>Sin Plugin</a>
+      <a class="button" href='views/demo.html'>Con Plugin</a>
+    </div>
+  </main>
+  <br><br>
+  <footer>
+    <h4>Cardify.js by L@ura Jimenez & M@rina Rodriguez.</h4>
+  </footer>
+</body>
+</html>
